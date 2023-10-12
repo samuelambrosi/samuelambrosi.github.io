@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" media="screen" href="../css/estilo_insertar_estudiante.css">
+    <script src="https://kit.fontawesome.com/6fe4f7c916.js" crossorigin="anonymous"></script>
+    <title>Insertar nuevo estudiante</title>
+</head>
+<body>
+    <!--
+        Este es el encabezado del index
+    -->
+    <header>CECYTEM - <br>Control de salas de computo</header>
+    <!--Fin del encabezado del index-->
+
+    <!--Inicio del contenedor de las opciones-->
+
+    <div id="contenedor">
+        <a href="index.html" class="enlaces"><i class="fas fa-arrow-left"></i> Volver al Menú Principal</a><br><br>
+        <p>Modificar datos del estudiante</p>
+        <br>
+
+        <!--Inicio del formulario-->
+        
+        <form method="post" action="#">
+            Matricula: <input type="number" required placeholder="Ingresa la matrícula"><br><br>
+            Nombre: <input type="text" required placeholder="Ingresar el nombre del alumno"><br><br>
+            Grupo: <input type="number" required placeholder="Ingresar el grupo"><br><br>
+            Número de estación: <input type="number" required placeholder="Ingresar el número de máquina del alumno"><br><br>
+            <input type="submit" name="ingresar" value="Modificar">
+        </form>
+        
+        <!--Fin del formulario-->
+        
+    </div>
+
+    <!--FIN del contendor de las opciones-->
+    <footer>
+        Cecytem Plantel La Paz 
+        <br>&#xa9;Derechos Reservados @2021 
+    </footer>
+
+</body>
+</html>

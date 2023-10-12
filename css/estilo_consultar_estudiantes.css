@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: auto;
+    max-width: 100%;
+}
+
+/*Inicio del diseño del encabezado*/
+
+header{    
+    height: 30%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 85px;
+    padding-left: 5%;
+    padding-top: 15%;
+    padding-bottom: 5%;
+    margin-bottom: 3%;
+    overflow: hidden;
+    background: #000000;
+    background: -webkit-linear-gradient(to right, #0f9b0f5e, #000000),url(../imagen/escuelacecy.jpg);  
+    background: linear-gradient(to right, #0f9b0f5e, #000000),url(../imagen/escuelacecy.jpg); 
+    color: white;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/*FIN del diseño del encabezado*/
+
+/*Inicio del diseño del contendor de los enlaces*/
+
+#contenedor{
+    /*background-color:chartreuse;*/
+    margin: 2%;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 450px;
+    overflow: hidden;
+    width: 96%;
+}
+
+p{
+    font-size: 47px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/*FIN del diseño del contendor de los enlaces*/
+
+/*Inicio del diseño de la tabla*/
+
+table{
+    border-collapse: collapse;
+    width: 95%;
+    margin: 2%;
+}
+
+th{
+    padding-left: 1%;
+    background-color: rgb(9, 158, 9);
+    color: rgba(255, 255, 255, 0.932);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 25px;
+}
+
+.fila_datos{
+    height: 25px;
+}
+
+tr{
+    transition: background 200ms, color 500ms;
+}
+
+.fila_datos{
+    transition: background 200ms, color 500ms;
+}
+
+tr:hover{
+    background-color: rgba(128, 128, 128, 0.247);
+}
+
+.fila_datos:hover{
+    background-color: rgba(128, 128, 128, 0.425);
+}
+
+/*FIN del diseño de la tabla*/
+
+/*Inicio del diseño de MODIFICAR y ELIMINAR*/
+
+ul{
+    list-style: none;
+    margin: 5px;
+    padding: 5px;
+}
+
+.datos1{
+    text-decoration: none;
+    transition: color 175ms, background 175ms;
+}
+
+.datos2{
+    text-decoration: none;
+    color: rgb(133, 8, 8);
+    transition: color 175ms, background 175ms;
+}
+
+.datos1:hover{
+    text-decoration: underline;
+    color: white;
+    padding: 2%;
+    background-color: blue;
+}
+
+.datos2:hover{
+    text-decoration: underline;
+    color: white;
+    padding: 2%;
+    background-color: red;
+}
+
+/*Fin del diseño de MODIFICAR y ELIMINAR*/
+
+/*Inicio del diseño del pie de la página*/
+
+footer{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+    text-align: center;
+    position: relative;
+    margin-top: 4%;
+    padding: 30px 30px;
+}
+
+/*FIN del pie de la página*/
